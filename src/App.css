@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  width: 40vmin;
+  pointer-events: none;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+/* !How to move backdrop even when it is made fixed. */
+
+.App-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/*
+@media screen {
+  
+}
+*/
+
+
+
+.book-now-text {
+  text-align: center;
+  position: relative;
+  top: 5vw;
+  font-size: 1.7vw;
+  font-weight: 700;
+  right: 25vw;
+}
+
+
+
+.book-now-button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  margin-top: 4vmin;
+
+  background-color: rgb(251, 124, 219);
+  color: white;
+
+  border-radius: 10vmin;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+}
